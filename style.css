@@ -5,7 +5,7 @@ body,html{
 overflow-x: hidden;
 margin: 0;
 padding: 0;
-height: 150vh;
+height: 750vh;
 background: linear-gradient(90deg, #cdffd8, #94b9ff);
 
   
@@ -177,22 +177,6 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 
 }
 
-.nextPage1{
-    position: absolute;
-    top: 130%;
-    left: 50%;
-    transform: translate(-50%);
-    background-color: transparent;
-    border: 3px solid black;
-    border-radius: 40px;
-    width: 180px;
-    height: 50px;
-    color: black;
-    font-size: 20px;
-    font-family: "Ojuju", sans-serif;
-    font-weight: 200;  
-    cursor: pointer;
-}
 .info1{
     position: absolute;
     top: 280%;
@@ -210,7 +194,7 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
     font-weight: 600;
     color: black;
     position: absolute;
-    top: 320%;
+    top: 220%;
     transform: translate(-50%);
     animation: none;
 }
@@ -219,7 +203,7 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
     font-weight: 600;
     color: black;
     position: absolute;
-    top: 10%;
+    top: 200%;
     left: 50%;
     font-size: 40px;
     transform: translate(-50%);
@@ -228,14 +212,14 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 .image1{
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 215%;
     transform: translate(-50%);
     animation: none;
 }
 .dot1_1{
     position: absolute;
     left: 50%;
-    top: 100%;
+    top: 270%;
     transform: translate(-50%);
     color: black;
     font-family: "Roboto", sans-serif;
@@ -247,7 +231,7 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 .dot1_2{
     position: absolute;
     left: 50%;
-    top: 120%;
+    top: 290%;
     transform: translate(-50%);
     color: black;
     font-family: "Roboto", sans-serif;
@@ -258,7 +242,7 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 }
 .dot1_3{
     position: absolute;
-    top: 140%;
+    top: 310%;
     left: 50%;
     transform: translate(-50%);
     color: black;
@@ -268,31 +252,14 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
     font-size: 25px;
     animation: none; 
 }
-.nextPage2{
-    position: absolute;
-    top: 160%;
-    left: 50%;
-    transform: translate(-50%);
-    background-color: transparent;
-    border: 3px solid black;
-    border-radius: 40px;
-    width: 180px;
-    height: 50px;
-    color: black;
-    font-size: 20px;
-    font-family: "Ojuju", sans-serif;
-    font-weight: 200;  
-    cursor: pointer;
-}
-
-
 
 .dot2{
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     color: black;
     position: absolute;
-    top: 10%;
+    top: 330%;
+    left: 50%;
     font-size: 25px;
     transform: translate(-50%);
     animation: dot2 3s forwards;
@@ -300,14 +267,14 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 .image2{
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 340%;
     transform: translate(-50%);
     height: 300px;
     animation: none;
 }
 .dot2_1{
     position: absolute;
-    top: 70%;
+    top: 390%;
     left: 50%;
     transform: translate(-50%);
     color: black;
@@ -319,7 +286,7 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 }
 .dot2_2{
     position: absolute;
-    top:90%;
+    top:410%;
     left: 50%;
     transform: translate(-50%);
     color: black;
@@ -331,7 +298,7 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 }
 .dot2_3{
     position: absolute;
-    top: 110%;
+    top: 430%;
     left: 50%;
     transform: translate(-50%);
     color: black;
@@ -341,23 +308,6 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
     font-size: 25px; 
     animation: none;
 }
-.nextPage3{
-    position: absolute;
-    top: 140%;
-    left: 50%;
-    transform: translate(-50%);
-    background-color: transparent;
-    border: 3px solid black;
-    border-radius: 40px;
-    width: 180px;
-    height: 50px;
-    color: black;
-    font-size: 20px;
-    font-family: "Ojuju", sans-serif;
-    font-weight: 200;  
-    cursor: pointer;
-}
-
 
 
 .dot3{
@@ -365,7 +315,8 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
     font-weight: 600;
     color: black;
     position: absolute;
-    top: 560%;
+    top: 450%;
+    left: 50%;
     font-size: 25px;
     transform: translate(-50%);
     animation: none;
@@ -373,14 +324,16 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 .image3{
     position: absolute;
     left: 50%;
-    top: 575%;
+    top: 460%;
     transform: translate(-50%);
     height: 300px;
     animation: none;
 }
 .dot3_1{
     position: absolute;
-    top: 620%;
+    top: 510%;
+    left: 50%;
+
     transform: translate(-50%);
     color: black;
     font-family: "Roboto", sans-serif;
@@ -391,7 +344,8 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 }
 .dot3_2{
     position: absolute;
-    top: 640%;
+    top: 530%;
+    left: 50%;
     transform: translate(-50%);
     color: black;
     font-family: "Roboto", sans-serif;
@@ -402,7 +356,8 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 }
 .dot3_3{
     position: absolute;
-    top: 660%;
+    top: 550%;
+    left: 50%;
     transform: translate(-50%);
     color: black;
     font-family: "Roboto", sans-serif;
@@ -412,30 +367,21 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
     animation: none;
 }
 
-
-
-.topic2{
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    color: black;
-    position: absolute;
-    top: 680%;
-    transform: translate(-50%);
-    animation: none;
-}
 .dot4{
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     color: black;
     position: absolute;
-    top: 700%;
+    top: 570%;
+    left: 50%;
     font-size: 25px;
     transform: translate(-50%);
     animation: none;
 }
 .dot4_1{
     position: absolute;
-    top: 720%;
+    top: 590%;
+    left: 50%;
     transform: translate(-50%);
     color: black;
     font-family: "Roboto", sans-serif;
@@ -446,7 +392,8 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 }
 .dot4_2{
     position: absolute;
-    top: 740%;
+    top: 610%;
+    left: 50%;
     transform: translate(-50%);
     color: black;
     font-family: "Roboto", sans-serif;
@@ -457,7 +404,20 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 }
 .dot4_3{
     position: absolute;
-    top: 760%;
+    top: 630%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot5{
+    position: absolute;
+    top: 650%;
+    left: 50%;
     transform: translate(-50%);
     color: black;
     font-family: "Roboto", sans-serif;
@@ -467,7 +427,42 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
     animation: none;
 }
 
-
+.dot5_1{
+    position: absolute;
+    top: 670%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot5_2{
+    position: absolute;
+    top: 690%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot5_3{
+    position: absolute;
+    top: 720%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
 @media only screen and (max-width: 400px) {
     .backgroundVideo{
         display: none;
