@@ -5,7 +5,7 @@ body,html{
 overflow-x: hidden;
 margin: 0;
 padding: 0;
-height: 750vh;
+height: 1180vh;
 background: linear-gradient(90deg, #cdffd8, #94b9ff);
 
   
@@ -199,9 +199,9 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
     animation: none;
 }
 .dot1{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Franklin Gothic Medium';
     font-weight: 600;
-    color: black;
+    color: rgb(209, 139, 0);
     position: absolute;
     top: 200%;
     left: 50%;
@@ -254,22 +254,27 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 }
 
 .dot2{
-    font-family: "Roboto", sans-serif;
+  
+    font-family: 'Franklin Gothic Medium';
     font-weight: 600;
-    color: black;
+    color: rgb(209, 139, 0);
+font-size: 40px;
+    transform: translate(-50%);
+    animation: dot1 3s forwards;
     position: absolute;
     top: 330%;
     left: 50%;
-    font-size: 25px;
+  
     transform: translate(-50%);
     animation: dot2 3s forwards;
 }
 .image2{
     position: absolute;
     left: 50%;
-    top: 340%;
+    top: 345%;
     transform: translate(-50%);
     height: 300px;
+
     animation: none;
 }
 .dot2_1{
@@ -311,20 +316,21 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 
 
 .dot3{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
-    color: black;
+    color: rgb(209, 139, 0);
+    font-size: 40px;
     position: absolute;
     top: 450%;
     left: 50%;
-    font-size: 25px;
+  
     transform: translate(-50%);
     animation: none;
 }
 .image3{
     position: absolute;
     left: 50%;
-    top: 460%;
+    top: 465%;
     transform: translate(-50%);
     height: 300px;
     animation: none;
@@ -368,13 +374,14 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
 }
 
 .dot4{
-    font-family: "Roboto", sans-serif;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
-    color: black;
+    color: rgb(209, 139, 0);
+    font-size: 40px;
     position: absolute;
     top: 570%;
     left: 50%;
-    font-size: 25px;
+
     transform: translate(-50%);
     animation: none;
 }
@@ -419,11 +426,12 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
     top: 650%;
     left: 50%;
     transform: translate(-50%);
-    color: black;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(209, 139, 0);
+    font-size: 40px;
     font-weight: 600;
     text-align: center;
-    font-size: 25px;
     animation: none;
 }
 
@@ -463,17 +471,291 @@ background: linear-gradient(90deg, #cdffd8, #94b9ff);
     font-size: 25px;
     animation: none;
 }
-@media only screen and (max-width: 400px) {
-    .backgroundVideo{
-        display: none;
-    }
-    .title{
-        text-align: center;
-        font-size: 35px;
-        animation: titleMovePhone 3s forwards;
-    }
-    .textAfterTitle{
-    top: 295px;
-    font-size: 17px;
-    }
-  }
+.dot6{
+    position: absolute;
+    top: 740%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(209, 139, 0);
+    text-align: center;
+    font-size: 40px;
+    animation: none; 
+}
+
+
+.dot6_1{
+    position: absolute;
+    top: 780%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot6_2{
+    position: absolute;
+    top: 800%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot6_3{
+    position: absolute;
+    top: 820%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+
+
+.dot7{
+    position: absolute;
+    top: 840%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(209, 139, 0);
+    text-align: center;
+    font-size: 40px;
+    animation: none;
+}
+
+.dot7_1{
+    position: absolute;
+    top: 860%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot7_2{
+    position: absolute;
+    top: 880%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot7_3{
+    position: absolute;
+    top: 900%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot8{
+    position: absolute;
+    top: 920%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(209, 139, 0);
+    text-align: center;
+    font-size: 40px;
+    animation: none;
+}
+
+.dot8_1{
+    position: absolute;
+    top: 940%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot8_2{
+    position: absolute;
+    top: 960%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot8_3{
+    position: absolute;
+    top: 980%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot9{
+    position: absolute;
+    top: 1000%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(209, 139, 0);
+    text-align: center;
+    font-size: 40px;
+    animation: none;
+}
+
+.dot9_1{
+    position: absolute;
+    top: 1020%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot9_2{
+    position: absolute;
+    top: 1040%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot9_3{
+    position: absolute;
+    top: 1060%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+
+.dot10{
+    position: absolute;
+    top: 1080%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(209, 139, 0);
+    text-align: center;
+    font-size: 40px;
+    animation: none;
+}
+
+.dot10_1{
+    position: absolute;
+    top: 1100%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot10_2{
+    position: absolute;
+    top: 1120%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+.dot10_3{
+    position: absolute;
+    top: 1140%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    animation: none;
+}
+
+.point2{
+    top: 1150%;
+    left:5%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    animation: mark1 3s forwards; 
+}
+.question1{
+    top: 1160%;
+    left:50%;
+    transform: translate(-50%);
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+   
+}
+.answer1_1{
+    width: 220px;
+    top: 1180%;
+    left:50%;
+    transform: translate(-50%);
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}

@@ -23,6 +23,8 @@ const word1 = document.getElementById('typeText1Ex1');
       else{
         alert('Моля, попълнете правилно твърденията!');
       }
+
+      
   });});
 
   
